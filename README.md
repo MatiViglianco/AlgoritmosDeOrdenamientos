@@ -23,6 +23,7 @@ def bubblesort(vectorbs):
     print("El vector ordenado es:", vectorbs)
 
 ![Bubble-sort](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/c9def85a-1ec3-4243-a201-4b6555ba4ab0)
+
 https://www.youtube.com/watch?v=Q7MAO9h3oV4
 
 
