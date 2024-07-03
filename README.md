@@ -21,8 +21,8 @@ def bubblesort(vectorbs):
                 vectorbs[j], vectorbs[j+1] = vectorbs[j+1], vectorbs[j]
                 
     print("El vector ordenado es:", vectorbs)
-bubblesort(vectorbs)
 
+![Bubble-sort](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/c9def85a-1ec3-4243-a201-4b6555ba4ab0)
 https://www.youtube.com/watch?v=Q7MAO9h3oV4
 
 
@@ -49,8 +49,6 @@ def selectionsort(vectorselect):
     
     print("El vector ordenado es:", vectorselect)
 
-selectionsort(vectorselect)
-
 ![Selection_sort_animation](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/afc760cd-72f7-4751-9d1e-3a6b4911675f)
 
 # 3. Método de Ordenamiento por Inserción (InsertionSort)
@@ -76,8 +74,6 @@ def insertionsort(vectorins):
         vectorins[j + 1] = elemento
         
     print("El vector ordenado con inserción es:", vectorins)
-
-insertionsort(vectorins)
 
 ![Insertion_sort_animation](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/e3b0c1d0-843c-4644-b57d-53fb0a6b8135)
 
@@ -107,7 +103,6 @@ def shellsort(vectorshell):
         gap //= 2
         
     print("El vector ordenado con shell es:", vectorshell)
-shellsort(vectorshell)
 
 ![Sorting_shellsort](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/344e7e3c-7f24-42e2-9915-4a5498f5e565)
 
@@ -158,8 +153,6 @@ def mergesort(vectormerge):
     merge_sort(vectormerge)
     print("El vector ordenado con merge es:", vectormerge)
 
-mergesort(vectormerge)
-
 ![Merge_sort_animation](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/2554f01f-e602-486f-9be9-9153ba6b6a2a)
 
 # 6. Método de Ordenamiento Rápido (QuickSort)
@@ -202,7 +195,6 @@ def quicksort(vectorquick):
     quick_sort(vectorquick, 0, len(vectorquick)-1)
     print("El vector ordenado con quick es:", vectorquick)
 
-quicksort(vectorquick)
 
 ![Quicksort](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/adff1929-b073-4217-9572-b3089d265a63)
 
@@ -241,7 +233,6 @@ def heapsort(vectorheap):
         heapify(vectorheap, i, 0)
         
     print("El vector ordenado con heap es:", vectorheap)
-heapsort(vectorheap)
 
 ![heapsort](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/e1f7ecf8-3c33-4b7a-b1d7-7d24b82b9c0a)
 
@@ -272,7 +263,6 @@ def combsort(vectorcomb):
                 swapped = True
                 
     print("El vector ordenado con comb es:", vectorcomb)
-combsort(vectorcomb)
 
 ![Comb_sort](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/aa9bd0e8-ca0c-417d-b7aa-96458dd6db7a)
 
@@ -311,19 +301,23 @@ def cocktailsort(vectorcocktail):
         start += 1
         
     print("El vector ordenado con cocktail es:", vectorcocktail)
-cocktailsort(vectorcocktail)
 
 ![sort-graph](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/405c0e6d-3d24-4ee2-b9e2-b983e3cde8e8)
 
 # Eficiencia de rendimiento
-Comparación según la cantidad de tiempo de demora
-La gráfica demuestra cuanto tardan (en segundos) distintos tipos de ordenamiento al variar la cantidad de elementos que contiene la lista a ordenar. Siendo las máquinas a comparar:
-
 M1 = Máquina 1 (1 nucleo, 1GB de RAM) M2 = Máquina 2 (2 nucleos, 2GB de RAM)
 
 Tenemos el siguiente gráfico:
 ![allAlgorithms_M1_M2](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/37bb68cd-c51c-48ec-86ea-e538ec9cf326)
+La gráfica compara el rendimiento de distintos algoritmos de ordenamiento en dos máquinas con diferentes configuraciones de hardware. Las conclusiones clave son:
 
+Rendimiento General:
+M2, con más núcleos y memoria, generalmente tiene un mejor rendimiento que M1.
+Escalabilidad de Algoritmos:
+Algoritmos como MergeSort y QuickSort muestran una menor diferencia en el rendimiento entre las dos máquinas, lo que sugiere que escalan mejor con el aumento del tamaño de la lista.
+Impacto del Hardware:
+Algoritmos más simples como BubbleSort e InsertionSort se ven más afectados por las limitaciones del hardware, mostrando una mayor diferencia en el tiempo de ejecución entre M1 y M2.
+Estas observaciones pueden ayudar a elegir el algoritmo de ordenamiento más adecuado según la configuración del hardware y el tamaño de los datos a procesar.
 
 
 Comparación según la cantidad de iteraciones e intercambios del algoritmo
