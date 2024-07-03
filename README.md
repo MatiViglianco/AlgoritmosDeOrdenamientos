@@ -1,7 +1,7 @@
-![Quicksort](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/1abe275c-ab31-49be-994b-ad715f166550)# AlgoritmosDeOrdenamientos
+# AlgoritmosDeOrdenamientos
 Los métodos de ordenamiento son algoritmos diseñados para organizar los registros de una tabla en un orden secuencial específico basado en algún criterio. Estos métodos pueden ser iterativos o recursivos dependiendo de su naturaleza y forma de ejecución. A continuación, se presentan algunos de los métodos de ordenamiento más comunes, junto con sus características principales y ejemplos en Python:
 
-1. Método de Ordenamiento de la Burbuja (BubbleSort)
+# 1. Método de Ordenamiento de la Burbuja (BubbleSort)
 El Ordenamiento de Burbuja es un algoritmo simple que compara cada elemento de la lista con el siguiente, intercambiándolos si están en el orden incorrecto. Este proceso se repite hasta que no se necesiten más intercambios, indicando que la lista está ordenada.
 
 python
@@ -24,7 +24,8 @@ def bubblesort(vectorbs):
 
 bubblesort(vectorbs)
 https://www.youtube.com/watch?v=Q7MAO9h3oV4
-2. Método de Ordenamiento por Selección (SelectionSort)
+
+# 2. Método de Ordenamiento por Selección (SelectionSort)
 Este método busca el elemento menor en la lista no ordenada y lo coloca al principio. Luego, repite el proceso con los elementos restantes.
 
 python
@@ -48,9 +49,10 @@ def selectionsort(vectorselect):
     print("El vector ordenado es:", vectorselect)
 
 selectionsort(vectorselect)
+
 ![Selection_sort_animation](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/afc760cd-72f7-4751-9d1e-3a6b4911675f)
 
-3. Método de Ordenamiento por Inserción (InsertionSort)
+# 3. Método de Ordenamiento por Inserción (InsertionSort)
 Este método recorre la lista y toma cada elemento actual, insertándolo en la posición correcta en la parte ya ordenada de la lista.
 
 python
@@ -75,9 +77,10 @@ def insertionsort(vectorins):
     print("El vector ordenado con inserción es:", vectorins)
 
 insertionsort(vectorins)
+
 ![Insertion_sort_animation](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/e3b0c1d0-843c-4644-b57d-53fb0a6b8135)
 
-4. Método de Ordenamiento Shell (ShellSort)
+# 4. Método de Ordenamiento Shell (ShellSort)
 El método Shell es una mejora del InsertionSort. Compara elementos separados por un intervalo y reduce este intervalo en cada iteración hasta finalizar con un InsertionSort simple.
 
 python
@@ -105,7 +108,8 @@ def shellsort(vectorshell):
     print("El vector ordenado con shell es:", vectorshell)
 
 shellsort(vectorshell)
-5. Método de Ordenamiento por Mezcla (MergeSort)
+
+# 5. Método de Ordenamiento por Mezcla (MergeSort)
 El MergeSort divide la lista en dos sublistas, las ordena recursivamente y luego las mezcla en una sola lista ordenada.
 
 python
@@ -152,9 +156,10 @@ def mergesort(vectormerge):
     print("El vector ordenado con merge es:", vectormerge)
 
 mergesort(vectormerge)
+
 ![Merge_sort_animation](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/2554f01f-e602-486f-9be9-9153ba6b6a2a)
 
-6. Método de Ordenamiento Rápido (QuickSort)
+# 6. Método de Ordenamiento Rápido (QuickSort)
 El QuickSort selecciona un elemento como pivote y divide la lista en dos sublistas alrededor del pivote. Este proceso se repite recursivamente.
 
 python
@@ -195,9 +200,10 @@ def quicksort(vectorquick):
     print("El vector ordenado con quick es:", vectorquick)
 
 quicksort(vectorquick)
+
 ![Quicksort](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/adff1929-b073-4217-9572-b3089d265a63)
 
-7. Método de Ordenamiento por Montones (HeapSort)
+# 7. Método de Ordenamiento por Montones (HeapSort)
 El HeapSort construye un montón a partir de la lista y luego extrae los elementos del montón uno por uno para formar la lista ordenada.
 
 python
@@ -234,7 +240,8 @@ def heapsort(vectorheap):
     print("El vector ordenado con heap es:", vectorheap)
 
 heapsort(vectorheap)
-8. Método de Ordenamiento del Peine (CombSort)
+
+# 8. Método de Ordenamiento del Peine (CombSort)
 El CombSort mejora el BubbleSort comparando elementos separados por una distancia mayor que uno y reduciendo esta distancia en cada iteración.
 
 python
@@ -262,7 +269,8 @@ def combsort(vectorcomb):
     print("El vector ordenado con comb es:", vectorcomb)
 
 combsort(vectorcomb)
-9. Método de Ordenamiento Bidireccional (CocktailSort)
+
+# 9. Método de Ordenamiento Bidireccional (CocktailSort)
 El CocktailSort es una variación del BubbleSort que ordena la lista en ambas direcciones, hacia adelante y hacia atrás, en cada pasada.
 
 python
@@ -299,7 +307,7 @@ def cocktailsort(vectorcocktail):
 
 cocktailsort(vectorcocktail)
 
-#Eficiencia de rendimiento
+# Eficiencia de rendimiento
 Comparación según la cantidad de tiempo de demora
 La gráfica demuestra cuanto tardan (en segundos) distintos tipos de ordenamiento al variar la cantidad de elementos que contiene la lista a ordenar. Siendo las máquinas a comparar:
 
