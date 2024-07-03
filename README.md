@@ -21,9 +21,10 @@ def bubblesort(vectorbs):
                 vectorbs[j], vectorbs[j+1] = vectorbs[j+1], vectorbs[j]
                 
     print("El vector ordenado es:", vectorbs)
-
 bubblesort(vectorbs)
+
 https://www.youtube.com/watch?v=Q7MAO9h3oV4
+
 
 # 2. Método de Ordenamiento por Selección (SelectionSort)
 Este método busca el elemento menor en la lista no ordenada y lo coloca al principio. Luego, repite el proceso con los elementos restantes.
@@ -106,8 +107,10 @@ def shellsort(vectorshell):
         gap //= 2
         
     print("El vector ordenado con shell es:", vectorshell)
-
 shellsort(vectorshell)
+
+![Sorting_shellsort](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/344e7e3c-7f24-42e2-9915-4a5498f5e565)
+
 
 # 5. Método de Ordenamiento por Mezcla (MergeSort)
 El MergeSort divide la lista en dos sublistas, las ordena recursivamente y luego las mezcla en una sola lista ordenada.
@@ -238,8 +241,10 @@ def heapsort(vectorheap):
         heapify(vectorheap, i, 0)
         
     print("El vector ordenado con heap es:", vectorheap)
-
 heapsort(vectorheap)
+
+![heapsort](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/e1f7ecf8-3c33-4b7a-b1d7-7d24b82b9c0a)
+
 
 # 8. Método de Ordenamiento del Peine (CombSort)
 El CombSort mejora el BubbleSort comparando elementos separados por una distancia mayor que uno y reduciendo esta distancia en cada iteración.
@@ -267,8 +272,10 @@ def combsort(vectorcomb):
                 swapped = True
                 
     print("El vector ordenado con comb es:", vectorcomb)
-
 combsort(vectorcomb)
+
+![Comb_sort](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/aa9bd0e8-ca0c-417d-b7aa-96458dd6db7a)
+
 
 # 9. Método de Ordenamiento Bidireccional (CocktailSort)
 El CocktailSort es una variación del BubbleSort que ordena la lista en ambas direcciones, hacia adelante y hacia atrás, en cada pasada.
@@ -304,8 +311,9 @@ def cocktailsort(vectorcocktail):
         start += 1
         
     print("El vector ordenado con cocktail es:", vectorcocktail)
-
 cocktailsort(vectorcocktail)
+
+![sort-graph](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/405c0e6d-3d24-4ee2-b9e2-b983e3cde8e8)
 
 # Eficiencia de rendimiento
 Comparación según la cantidad de tiempo de demora
@@ -322,6 +330,7 @@ Comparación según la cantidad de iteraciones e intercambios del algoritmo
 Otra forma de comparar los algoritmos de ordenamiento es analizandolos según la cantidad de comparaciones e intercambios que deben realizar para cumplir su cometido, hemos analizado algunos de ellos con la calculadora correspondiente y encontrado de esta forma, los datos para realizar la siguiente tabla y gráfico:
 ![MetodosdeOrdenamiento](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/e4fc04d2-c974-4da9-97b0-cc12219a6f87)
 
-
+# Aqui tienes una pagina interactiva con varios algoritmos:
+https://visualgo.net/en/sorting
 
 Estos métodos de ordenamiento abarcan una variedad de técnicas y principios algorítmicos que son útiles en diferentes contextos de programación y análisis de datos. Cada uno tiene sus propias ventajas y desventajas en términos de complejidad temporal y espacial, por lo que es importante elegir el método adecuado según la situación específica.
