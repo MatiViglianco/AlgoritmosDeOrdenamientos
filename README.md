@@ -312,18 +312,30 @@ Tenemos el siguiente gráfico:
 ![allAlgorithms_M1_M2](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/37bb68cd-c51c-48ec-86ea-e538ec9cf326)
 La gráfica compara el rendimiento de distintos algoritmos de ordenamiento en dos máquinas con diferentes configuraciones de hardware. Las conclusiones clave son:
 
-Rendimiento General:
+## Rendimiento General:
 M2, con más núcleos y memoria, generalmente tiene un mejor rendimiento que M1.
-Escalabilidad de Algoritmos:
+## Escalabilidad de Algoritmos:
 Algoritmos como MergeSort y QuickSort muestran una menor diferencia en el rendimiento entre las dos máquinas, lo que sugiere que escalan mejor con el aumento del tamaño de la lista.
-Impacto del Hardware:
+## Impacto del Hardware:
 Algoritmos más simples como BubbleSort e InsertionSort se ven más afectados por las limitaciones del hardware, mostrando una mayor diferencia en el tiempo de ejecución entre M1 y M2.
 Estas observaciones pueden ayudar a elegir el algoritmo de ordenamiento más adecuado según la configuración del hardware y el tamaño de los datos a procesar.
 
 
 # Comparación según la cantidad de iteraciones e intercambios del algoritmo
 Otra forma de comparar los algoritmos de ordenamiento es analizandolos según la cantidad de comparaciones e intercambios que deben realizar para cumplir su cometido, hemos analizado algunos de ellos con la calculadora correspondiente y encontrado de esta forma, los datos para realizar la siguiente tabla y gráfico:
+
 ![MetodosdeOrdenamiento](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/e4fc04d2-c974-4da9-97b0-cc12219a6f87)
+
+## Eficiencia en Iteraciones:
+Algunos algoritmos, como el Ordenamiento Rápido (QuickSort) y el Ordenamiento por Mezcla (MergeSort), requieren menos iteraciones comparados con métodos tradicionales como el Ordenamiento de Burbuja.
+## Intercambios Minimizados:
+El Ordenamiento por Selección y el Ordenamiento Shell destacan por minimizar la cantidad de intercambios necesarios para ordenar los elementos.
+## Optimización de Burbuja:
+El Ordenamiento de Burbuja Mejorado y el Ordenamiento de Peine (CombSort) son variantes que buscan mejorar la eficiencia del Ordenamiento de Burbuja tradicional.
+## Comparación Visual:
+La gráfica proporciona una comparación visual rápida de la eficiencia de los algoritmos en términos de iteraciones e intercambios, facilitando la selección del método más adecuado según el caso de uso.
+
+Estos puntos resaltan las diferencias clave en la eficiencia de los algoritmos de ordenamiento y pueden servir como base para una presentación o análisis más detallado.
 
 # Aqui tienes una pagina interactiva con varios algoritmos:
 https://visualgo.net/en/sorting
