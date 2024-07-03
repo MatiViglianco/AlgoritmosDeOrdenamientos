@@ -321,7 +321,7 @@ Algoritmos más simples como BubbleSort e InsertionSort se ven más afectados po
 Estas observaciones pueden ayudar a elegir el algoritmo de ordenamiento más adecuado según la configuración del hardware y el tamaño de los datos a procesar.
 
 
-Comparación según la cantidad de iteraciones e intercambios del algoritmo
+# Comparación según la cantidad de iteraciones e intercambios del algoritmo
 Otra forma de comparar los algoritmos de ordenamiento es analizandolos según la cantidad de comparaciones e intercambios que deben realizar para cumplir su cometido, hemos analizado algunos de ellos con la calculadora correspondiente y encontrado de esta forma, los datos para realizar la siguiente tabla y gráfico:
 ![MetodosdeOrdenamiento](https://github.com/MatiViglianco/AlgoritmosDeOrdenamientos/assets/105290418/e4fc04d2-c974-4da9-97b0-cc12219a6f87)
 
